@@ -5,6 +5,16 @@
 
 body {
     background: black;
+    animation: opacity .3s linear forwards;
+}
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .auto {
