@@ -5,7 +5,7 @@
 
 body {
     background: black;
-    animation: opacity .3s linear forwards;
+    animation: opacity .8s linear forwards;
 }
 @keyframes opacity {
     0% {
@@ -108,9 +108,10 @@ ul li a:focus {
 .card {
     background: black!important;
     border: 0.1px solid orange;
-    height: 410px!important;
+    height: 430px!important;
     transition: 0.3s;
     cursor: pointer;
+    margin-top: 120px;
 }
 
 .card:hover {
@@ -210,4 +211,21 @@ ul li a:focus {
     margin: 0 auto;
     margin-top: 35px;
     color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 170px;}
+@media(max-width:492px){
+    .me-width {
+        width: 21%;
+        margin-left: 39%;
+        border-radius: 50%;
+        position: relative;
+    }
 }
